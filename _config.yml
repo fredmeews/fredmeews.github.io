@@ -14,10 +14,8 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: Ed Hughes - Software Development Consulting
-description: Organizing thoughts on stuff I care about - or just don\'t want to forget
+description: Organizing thoughts on stuff I care about - or just don't want to forget
 baseurl: "" # the subpath of your site, e.g. /blog
-url: http://fredmeews.github.io
-github_username: fredmeews
 
 # Build settings
 markdown: kramdown
@@ -25,9 +23,25 @@ theme: minima
 show_excerpts: true
 google_analytics: UA-132332575-1
 
-disqus:
-    shortname: fredmeews
 
-plugins:
-  - jekyll-feed
-  - jekyll-seo-tag
+disqus:
+  shortname: fredmeews
+
+minima:
+  skin: dark
+  show_excerpts: true
+  social_links:
+      github: fredmeews
+      twitter: fred_meews
+      linkedin: ed-hughes-2842305
+      youtube_channel: UCWnVsvExwYooFyYJZmZh7xg
+      header_pages:
+      - about.md
+  author:
+      name: Ed Hughes
+      email: "ed at hughes2000.com"
+
+
+author:
+  name: Ed Hughes
+  email: "ed at hughes2000.com"
