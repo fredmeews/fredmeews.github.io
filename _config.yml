@@ -19,7 +19,7 @@ baseurl: "" # the subpath of your site, e.g. /blog
 
 # Build settings
 markdown: kramdown
-theme: minima
+remote_theme: jekyll/minima
 show_excerpts: true
 google_analytics: UA-132332575-1
 
